@@ -32,7 +32,7 @@ for arbre in lignes:
     listefinale = [x2,y2]
     # print(coordXarbres, coordYarbres)
     
-    # J'ÉCRIS CES COORDONNÉES CONVERTIES DANS UN NOUVEAUX FICHIER CSV. LES DEUX COLONNES CRÉÉES POURRONT ALORS ÊTRE AJOUTÉES AU CSV ORIGINAL «tousarbres2.csv»
+    # J'ÉCRIS CES COORDONNÉES CONVERTIES DANS UN NOUVEAU FICHIER CSV. LES DEUX COLONNES CRÉÉES POURRONT ALORS ÊTRE AJOUTÉES AU CSV ORIGINAL «tousarbres2.csv»
     écrire = open(nouveaucsv,"a")
     pouet = csv.writer(écrire)
     pouet.writerow(listefinale)
